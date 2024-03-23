@@ -1,5 +1,6 @@
 public class Produto {
     private double valor;
+    private String nome;
 
     public double getValor() {
         return valor;
@@ -17,10 +18,9 @@ public class Produto {
         this.nome = nome;
     }
 
-    private String nome;
 
     public void mostraInfo() {
-        System.out.println("valor=" + valor +
-                ", nome='" + nome + '\'');
+        System.out.println("Valor >>>" + this.valor);
+        System.out.println("Nome >>>" + this.nome);
     }
 }
